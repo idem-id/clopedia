@@ -1,0 +1,23 @@
+{% if article.series %}
+<section class="well" id="related-posts">
+
+    {% set text = SERIES_TEXT|default('Данный рассказ является частью цикла "%(name)s"') %}
+    <h4>{{ text|format(index=article.series.index, name=article.series.name) }}</h4>
+    {% if article.series.all_previous %}
+       <h5>Предыдущие части</h5>
+       <ul>
+       {% for article in article.series.all_previous %}
+           <li><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></li>
+       {% endfor %}
+       </ul>
+    {% endif %}
+    {% if article.series.all_next %}
+       <h5>Следующие части</h5>
+       <ul>
+       {% for article in article.series.all_next %}
+           <li><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></li>
+       {% endfor %}
+       </ul>
+    {% endif %}
+</section>
+{% endif %}

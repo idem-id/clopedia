@@ -1,0 +1,58 @@
+<info class="post-info">
+    {% if SHOW_DATE_MODIFIED %}
+        {% if article.modified %}
+            <span class="label label-default">Изменено</span>
+            <span class="modified">
+                <i class="fa fa-calendar"></i><time datetime="{{ article.modified.isoformat() }}"> {{ article.locale_modified }}</time>
+            </span>
+        {% endif %}
+    {% endif %}
+
+
+
+    {% if SHOW_ARTICLE_AUTHOR %}
+        {% if article.author %}
+    <div>
+            <span class="label label-default">Автор</span>
+            <a href="{{ SITEURL }}/{{ article.author.url }}"> {{ article.author }}</a>
+    </div>
+        {% endif %}
+    {% endif %}
+
+   {% if SHOW_ARTICLE_TRANSLATOR %}
+        {% if article.translator %}
+    <div>
+            <span class="label label-default">Переводчик</span>
+            <a href="{{ SITEURL }}/{{ article.translator.url }}"> {{ article.translator }}</a>
+    </div>
+        {% endif %}
+    {% endif %}
+
+    {% if SHOW_ARTICLE_CATEGORY %}
+        <span class="label label-default">Категория</span>
+        <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
+    {% endif %}
+
+
+     {% if SHOW_SERIES %}
+        {% if article.series %}
+     <div>
+            <span class="label label-default">Цикл</span>
+            {{ article.series.name }}
+     </div>
+        {% endif %}
+    {% endif %}
+
+
+    {% if PDF_PROCESSOR %}
+        <span class="label label-default">
+            <a href="{{ SITEURL }}/pdf/{{ article.slug }}.pdf">PDF</a>
+        </span>
+    {% endif %}
+    <div>
+         <span class="label label-default">Теги</span>
+        {% include 'includes/taglist.html' %}
+    </div>
+    {% import 'includes/translations.html' as translations with context %}
+    {{ translations.translations_for(article) }}
+</info><!-- /.post-info -->
