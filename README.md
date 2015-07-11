@@ -1,3 +1,2 @@
 # clopedia
-pip install webassets 
-pip install beautifulsoup4
+pip install webassets beautifulsoup4
