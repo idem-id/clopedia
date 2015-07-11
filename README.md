@@ -1,0 +1,2 @@
+# clopedia
+pip install webassets
