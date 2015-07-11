@@ -12,7 +12,6 @@ TIMEZONE = 'Europe/Moscow'
 DEFAULT_LANG = u'ru'
 THEME = 'clopedia'
 
-PLUGIN_PATH = 'plugins'
 PLUGINS = ['sitemap', 'tipue_search', 'tag_cloud', 'related_posts', 'series', 'assets', ]
 
 FAVICON = "images/favicon.png"
