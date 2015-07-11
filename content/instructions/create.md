@@ -15,7 +15,7 @@ Status: draft
 
 
 "Я обещаю что эта история останется между нами"
-###Данная инструкция составлена для создания "постов" в Клопедии ( основанной на генераторе статических сайтов [Pelican](https://github.com/getpelican/pelican)) с использованием облегчённого языка разметки Markdown###
+###Данная инструкция составлена для создания "постов" в Клопедии, основанной на генераторе статических сайтов [Pelican](https://github.com/getpelican/pelican) с использованием облегчённого языка разметки Markdown###
 ----------
 
 Что такое [Markdown](https://ru.wikipedia.org/wiki/Markdown)    
@@ -74,7 +74,7 @@ Status: draft
 **Вот что получилось**
 
 > Title: Тетралогия про СМС - Сближение  
-> Originalname:
+> Originalname: Foalin' Around with the CMC    
 > Date: 2015-06-17  
 > Category: Клопфики  
 > Tags: Свити, человек, традиционный секс, ласки, юные пони, Тетралогия про СМС  
@@ -82,7 +82,7 @@ Status: draft
 > Style: традиционный секс, ласки  
 > Features: юные пони  
 > Series: Тетралогия про СМС  
-> Slug: Foalin_Around_with_the_CMC  
+> Slug: Foalin-Around-with-the-CMC  
 > Author: hotsauce  
 > Translator: ArTrees  
 > Proofreading: Beta, Аноним  
@@ -107,7 +107,7 @@ Status: draft
 **Готовый файл**  
 
 > Title: Тетралогия про СМС - Сближение  
-> Originalname:
+> Originalname: Foalin' Around with the CMC     
 > Date: 2015-06-17  
 > Category: Клопфики  
 > Tags: Свити, человек, традиционный секс, ласки, юные пони, Тетралогия про СМС  
@@ -115,7 +115,7 @@ Status: draft
 > Style: традиционный секс, ласки  
 > Features: юные пони  
 > Series: Тетралогия про СМС  
-> Slug: Foalin_Around_with_the_CMC  
+> Slug: Foalin-Around-with-the-CMC  
 > Author: hotsauce  
 > Translator: ArTrees  
 > Proofreading: Beta, Аноним  
@@ -132,8 +132,12 @@ Status: draft
 
 ----------
 
+Сохраняем файл - название-фанфика.md (Foalin-Around-with-the-CMC.md)
+
+
 ###Обратите внимание###
 
+Файл должен быть сохранён в кодировке **UTF-8**
 
 **Абзацы и переносы**
 
