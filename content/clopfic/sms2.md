@@ -12,6 +12,7 @@ Translator: ArTrees
 Proofreading: Beta, Аноним
 Source_link: http://pastebin.com/ezahj6a6
 Summary:  Я бы с удовольствием понаблюдал, как все эти симпатичные маленькие жеребята идут домой, но я знал, что рано или поздно кто-нибудь сочтет это подозрительным, так что я отказался от этой затеи.
+Status: published
 
 ####(CMC Tetralogy — часть II)
 
